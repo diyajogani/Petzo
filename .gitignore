@@ -1,0 +1,49 @@
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+## Ignore ASP.NET-specific files
+_ReSharper*/
+*.resharper
+*.dbmdl
+*.pdb
+*.mdb
+
+## Ignore publish folder (optional)
+publish/
+App_Data/*.mdf
+App_Data/*.ldf
+
+## Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+## Ignore SQL Server LocalDB files
+*.mdf
+*.ldf
+
+## Ignore user-specific files
+*.userprefs
+*.sln.docstates
+
+## Ignore node_modules (if you used npm)
+node_modules/
+
+## Ignore PayPal SDK or keys (if used)
+paypal.config.js
+.env

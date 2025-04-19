@@ -1,0 +1,146 @@
+﻿/*HEADER CSS*/
+.head {
+    background-color: blanchedalmond;
+    min-height: 10vh;
+    min-width:100vh;
+}
+.head ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*distributes the list items across the available space*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.head li {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.head li img {
+    border-radius:100%;
+    height: 4rem;
+    padding: 10px;
+}
+.head li span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: 12px;
+    font-weight:600 !important;
+    padding-right:15px;
+}
+
+/*SIDEBAR CSS*/
+.container-fluid {
+    margin-left: -13px;
+    padding: 0;
+    display: flex;
+    min-height: 90vh;
+    min-width: 100vh;
+}
+.sidebar {
+    min-height: 160vh;
+    background-color: blanchedalmond;
+    margin-left: -10px;
+    padding: 0;
+}
+.sidebar ul {
+    list-style:none;
+    padding: 10px;
+}
+.sidebar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+/* sidebar background icon color*/
+.sidebar li i{
+    padding: 12px;
+    font-size: 1.5rem;
+    color: #FF6F61;
+}
+/* sidebar background HOVER color*/
+.sidebar li:hover {
+    background-color: #05a6a0;
+}
+/*changes the color of icon as well, on li hover*/
+.sidebar li:hover i{ 
+    color:azure;
+}
+/*DASHBOARD CSS*/
+.count {
+    height: 100px;
+    width: 220px !important;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 7px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    color: white;
+    text-align:center;
+}
+.allbox {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.count.prod {
+    background-color: #84e6ff;
+}
+.count.cust {
+    background: #ff8c9e;
+}
+.count.ret {
+    background-color: #fcbc7e;
+}
+.count.total {
+    background: #a6e9f0;
+}
+/*USER DETAILS CSS*/
+.user {
+    margin:12px;
+    padding:12px;
+}
+.user img {
+    border-radius: 100%;
+    margin: 12px;
+    height: 100px !important; /*to set the css that is not working originally sometimes*/
+}
+.btn.cust-btn1 {
+    border: 1px solid #f58820;
+    border-radius: 8px;
+    color: #f58820;
+    margin-bottom: 10px;
+    margin-right: 10px
+}
+.btn.cust-btn2 {
+    background: #f58820;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+/*Manage Ret+Cust*/
+.container-fluid h1 {
+    color: #FF6F61;
+}
+.table-striped {
+    margin:24px;
+    padding:12px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #dcfffc;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #effefe; /* Light color for even rows (optional) */
+}
+.btn.cust-btn2 {
+    background: #f58820;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;
+}

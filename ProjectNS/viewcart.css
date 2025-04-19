@@ -1,0 +1,92 @@
+﻿.navbar {
+    background-color: #fefcef;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+    .navbar-nav .nav-link {
+        color: black;
+        font-size: 1.1rem;
+        margin-right: 10px;
+        font-family: 'futura';
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #FF8C9E;
+            transform: scale(1.1);
+        }
+
+.logo {
+    margin-right: 70px;
+}
+
+    .logo img {
+        height: 40px;
+        margin-left: 50px;
+    }
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.last {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.custom-btn {
+    margin-top: 20px;
+   padding:10px;
+    margin-bottom:150px;
+}
+
+
+
+
+.fooot {
+    background-color: #055552;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    height:auto;
+}
+
+.foot h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.foot ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+    .foot ul li {
+        margin-bottom: 8px;
+    }
+
+.foot1 {
+    background-color: #044C4C;
+    text-align: center;
+}
+
+.fooot hr {
+    border-color: white;
+}

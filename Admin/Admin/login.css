@@ -1,0 +1,71 @@
+﻿
+.btn.cust-btn1 {
+    border: 1px solid #f58820;
+    border-radius: 8px;
+    color: #f58820;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.btn.cust-btn2 {
+    background: #f58820;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    min-height: 100vh; /* Minimum height set to 70% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    background: none;
+    background-image: url(images/registerOrangeBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    .box::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.5); /* Semi-transparent overlay */
+        backdrop-filter: blur(5px);
+        z-index: 1;
+    }
+
+.sub {
+    position: relative;
+    width: 70%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    z-index: 2;
+    background: rgba(254, 252, 239, 1);
+}
+
+h4 {
+    font-weight: 500;
+    color: #f58820;
+}
+
+.form-control, .form-label {
+    opacity: 1;
+    color: black;
+    width: 250px;
+    font-size: 1.2rem;
+}

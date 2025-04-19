@@ -1,0 +1,135 @@
+﻿.navbar {
+    background-color: #fefcef;
+    height: 62px;
+    width: 100%; /*change the width to 100%*/
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    font-family: 'futura';
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #FF8C9E;
+        text-decoration: underline; /*undeline the navbar links*/
+        transform: scale(1.1);
+    }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 50px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.cust-btn1 {
+    border: 1px solid #f58820;
+    border-radius:8px;
+    color: #f58820;
+}
+.cust-btn2 {
+    background: #f58820;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.last {
+    padding-right: 16px;
+    padding-top: 5px;
+}
+.box {
+    position: relative;
+    padding: 6rem;
+    background: none;
+    background-image: url(images/registerOrangeBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh; /* Minimum height set to 70% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1; /* Ensure it appears below the content */
+}
+.sub {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Horizontal offset, Vertical offset, Blur, Color */
+    border-radius: 2rem;
+    padding: 5rem;
+    z-index: 2; /* Ensure content is above the blur layer */
+    background: rgba(254, 252, 239, 1); 
+    opacity: 1;
+}
+.form-control, .form-label{
+    opacity:1;
+    color:black;
+    font-size:1.2rem;
+}
+h2 {
+    font-weight:bold;
+}
+footer {
+    width: 100%;
+    min-height: 30vh; /* Minimum height set to 30% of the viewport height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+    background-color: #055552;
+}
+h4{
+    font-weight: 500;
+    color: #f58820;
+}
+h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
